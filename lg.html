@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG Tapizados</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+</head>
+
+<body>
+<div class="header">
+
+      <a href="https://www.lgtapizados.com">
+       <div class="logo">
+        <img class="logimg" src="logo-lg.png" width="6%">
+       </div>
+      </a>
+        
+      
+     <div class="men">
+     <nav class="menu">
+      <a href="#home" class="boton">INICIO</a>
+      <a href="#servicios" class="boton">SERVICIOS</a>
+      <a href="#clientes" class="boton">CLIENTES</a>
+      <a href="#galeria" class="boton">GALERÍA</a>
+     </nav>
+     </div>
+              
+      <section class="buttons">
+      <a href="https://www.facebook.com/profile.php?id=100087439221114" target="_blank" style="margin-left: 10px" class="fa fa-facebook"></a>
+      <a href="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ" target="_blank" style="margin-left: 10px" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/lg.tapizados/?hl=es" target="_blank" style="margin-left: 10px" class="fa fa-instagram"></a>
+      <a href="https://wa.me/541124094482?text=Hola.%20Necesito%20la%20cotizaci%C3%B3n%20de%20un%20servicio!!" target="_blank" style="margin-left: 10px" class="fa fa-whatsapp"></a>
+      </section>
+            
+</div>
+
+<div class="slider" id="home">
+    <section class="splide" aria-label="Basic Structure Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="slider/1.png" width="100%"></li>
+            <li class="splide__slide"><img src="slider/2.png" width="100%"></li>
+            <li class="splide__slide"><img src="slider/3.png" width="100%"></li>
+            <li class="splide__slide"><img src="slider/4.png" width="100%"></li>
+            
+          </ul>
+        </div>
+      </section>
+</div>
+
+    <script>
+    var splide = new Splide( '.splide',{type: 'loop', autoplay:true, interval: '7000'})
+    splide.mount();
+    </script>
+
+<div class="item"   id="servicios">
+  <h1>Servicios</h1>
+  <p class="textoservicios">En LG Tapizados somos especialistas de la limpieza!
+    Nos dedicamos a la limpieza de alfombras, tapizados y cortinados.
+    Todos nuestros trabajos son realizados por personal idóneo, profesional y capacitado, contando con todos los seguros y coberturas correspondientes.
+    Gracias a nuestra sólida experiencia y una constante inversión en nuevas tecnologías, logramos un crecimiento permanente, otorgando un servicio diferencial y de calidad.
+    Nuestros servicios estan orientados tanto a hogares como a oficinas y comercios, y nos caracterizamos por brindar atención personalizada, otorgando soluciones adaptadas a las necesidades de cada cliente.
+    Cualquier duda estamos a su disposición!  En LG Tapizados realizamos la limpieza y desinfección de los siguientes productos:</p>
+
+  <div class="fotserv">
+
+     <img class="ima" src="servicios/serv 01.png">
+     <img class="ima" src="servicios/serv 02.png">
+     <img class="ima" src="servicios/serv 03.png">
+     <img class="ima" src="servicios/serv 04.png">
+     <img class="ima" src="servicios/serv 05.png">
+     <img class="ima" src="servicios/serv 06.png">
+     
+  </div>
+
+  <div class="textserv"> 
+    <p class="ser">Colchones</p>
+    <p class="ser">Sillones</p>
+    <p class="ser">Alfombras</p>
+    <p class="ser">Sillas</p>
+    <p class="ser">Cochecitos de bebé</p>
+    <p class="ser">Tapizado vehicular</p>
+    
+  </div>
+
+</div>
+
+<div class="item" id="clientes">
+  <h1>Algunos de nuestros Clientes</h1>
+
+  <div class="client">
+  <img class="clifot" src="clientes/Barby-Silenzi.jpeg">
+  <img class="clifot" src="clientes/medina.jpg">
+  <img class="clifot" src="clientes/rnoya.jpg">
+  <img class="clifot" src="clientes/solari.png">
+
+  </div>
+  
+ 
+</div>
+
+<div class="item" id="galeria">
+  <h1>Galería</h1>
+  <video height="520"  controls>
+  <source src="videos/vid01.mp4">
+  </video>
+  <video height="520"  controls>
+  <source src="videos/vid02.mp4">
+  </video>
+  <video height="520"  controls>
+  <source src="videos/vid03.mp4">
+  </video>
+</div>
+
+
+
+<div class="pie">
+<h4>© Copyright 2023 LG Tapizados</h4>
+<h4>Desarrollado por © Garden</h4>
+</div>
+
+</body>
+</html>
